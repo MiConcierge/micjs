@@ -4,7 +4,8 @@
   "description": "A collection of utility libraries used by MiC JS projects",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
   },
   "license": "MIT",
   "devDependencies": {
