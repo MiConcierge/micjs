@@ -1,6 +1,6 @@
-const React = require('react')
+import React from 'react'
 
-function withContainer (Component, Container) {
+export default function withContainer (Component, Container) {
   function WithContainer (props) {
     return <Container {...props}>
       <Component {...props} />
@@ -14,5 +14,3 @@ function withContainer (Component, Container) {
   WithContainer.displayName = `withContainer(${wrappedComponentName})`
   return WithContainer
 }
-
-module.exports = withContainer

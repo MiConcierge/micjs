@@ -1,9 +1,3 @@
-function flattenArray (array) {
-  const result = []
-  flatten(array, result)
-  return result
-}
-
 function flatten (array, result) {
   let length = array.length
   let ii = 0
@@ -18,4 +12,8 @@ function flatten (array, result) {
   }
 }
 
-module.exports = flattenArray
+export default function flattenArray (array) {
+  const result = []
+  flatten(array, result)
+  return result
+}
