@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "A collection of utility libraries used by MiC JS projects",
   "main": "index.js",
+  "repository": "MiConcierge/micjs",
   "scripts": {
     "build": "babel src -d lib",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "standard": "standard"
   },
   "license": "MIT",
   "devDependencies": {
