@@ -1,4 +1,4 @@
-export default function omitNull (object) {
+module.exports = function omitNull (object) {
   if (Object.prototype.toString.call(object) !== '[object Object]' &&
       Object.prototype.toString.call(object) !== '[object Array]') {
     return object
