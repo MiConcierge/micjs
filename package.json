@@ -5,8 +5,8 @@
   "main": "index.js",
   "repository": "MiConcierge/micjs",
   "scripts": {
-    "build": "babel src -d lib",
-    "prepublish": "npm run build",
+    "build": "rm -rf lib && babel src -d lib",
+    "prepare": "npm run build",
     "standard": "standard"
   },
   "license": "MIT",
