@@ -1,11 +1,11 @@
 {
   "name": "micjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A collection of utility libraries used by MiC JS projects",
   "main": "index.js",
   "repository": "MiConcierge/micjs",
   "scripts": {
-    "build": "rm -rf lib && babel src -d lib",
+    "build": "babel src -d .",
     "prepare": "npm run build",
     "standard": "standard"
   },
