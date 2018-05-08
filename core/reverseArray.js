@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = reverseArray;
 /**
- * Expose a immutable version of Array.prototype.reverse
+ * Expose an immutable version of Array.prototype.reverse
  */
 function reverseArray(array) {
   return array.slice().reverse();
