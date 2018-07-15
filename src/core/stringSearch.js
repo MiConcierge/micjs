@@ -1,6 +1,6 @@
 import cleanString from './cleanString'
 
-export default function searchString (string = '' , filter = '') {
+export default function searchString (string = '', filter = '') {
   return cleanString(string)
     .trim()
     .toLowerCase()
