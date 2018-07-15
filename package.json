@@ -6,8 +6,15 @@
   "repository": "MiConcierge/micjs",
   "scripts": {
     "build": "rm -rf lib && babel src -d lib",
+    "prepublish": "npm run build",
     "standard": "standard"
   },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib/"
+  ],
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
