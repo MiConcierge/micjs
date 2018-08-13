@@ -1,6 +1,6 @@
 {
   "name": "micjs",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "description": "A collection of utility libraries used by MiC JS projects",
   "main": "index.js",
   "repository": "MiConcierge/micjs",
