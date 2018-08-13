@@ -1,5 +1,4 @@
 export default function cleanString (string) {
-  if (!string) throw new Error('No string')
   return String(string)
     /**
      * Remove special caracters
